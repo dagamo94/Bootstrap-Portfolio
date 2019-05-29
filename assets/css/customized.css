@@ -35,6 +35,25 @@ body{
     padding: 0;
 }
 
+.overlaysize{
+    width: 200px;
+    height: 45px;
+    padding: 10px 0;
+    top: 140px;
+}
+
+.portfolioImages{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 0px 15px 15px 0;
+}
+
+.card-img{
+    width: 200px;
+    height: 200px;
+}
+
 section{
     margin-top: 20px;
 }
@@ -55,4 +74,11 @@ footer{
     font-size: 12px;
     width: 100%;
     text-align: center;
+}
+
+@media screen and (max-width: 640px){
+    nav{
+        position: static;
+        top: 0;
+    }
 }
