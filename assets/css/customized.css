@@ -81,4 +81,8 @@ footer{
         position: static;
         top: 0;
     }
+
+    .about{
+        width: 100%;
+    }
 }
